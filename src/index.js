@@ -11,17 +11,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-    const name = 'Samantha';
-    const age = 23;
-
-    return (
-        <div>
-            My name is:
-            <h1>
-                Hi, my name is {name} and my age is {age}
-            </h1>
-        </div>
-    );
+    return <textarea autoFocus={true}/>;
 }
 
 // 5) Show the component on the screen
