@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-    return <input maxLength={5}/>;
+    return <input placeholder="hi there"/>;
 }
 
 // 5) Show the component on the screen
