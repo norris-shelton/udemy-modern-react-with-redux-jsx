@@ -16,7 +16,7 @@ function App() {
             <textarea readOnly maxLength={3} spellCheck style={{backgroundColor: 'gray'}}/>
         </div>
 
-            )
+    )
 }
 
 // 5) Show the component on the screen
