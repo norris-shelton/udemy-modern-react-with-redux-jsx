@@ -11,7 +11,12 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-    return <input placeholder="hi there"/>;
+    return (
+        <div className="wrapper">
+            <textarea readOnly maxLength={3} spellCheck style={{backgroundColor: 'gray'}}/>
+        </div>
+
+            )
 }
 
 // 5) Show the component on the screen
